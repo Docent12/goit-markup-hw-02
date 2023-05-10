@@ -1,86 +1,150 @@
-/* .logo{ font-family: Raleway ,sans-serif; */
-    /* font-size: 18px;
-    font-weight: 800;
-    line-height: 21px;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    text-align: left;}
-    .logo-web{ color:#5D3FD3;}
-    .logo-studio{ color:#000080;}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-web {
+  color: #4d5ae5;
+}
+.header-logo-studio {
+  color: #2e2f42;
+}
 
+.header-link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-mail {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-phone {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-btn {
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.features-list-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.features-list-text {
+  font-family: "Roboto";
 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.ourjob-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.ourteam-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.oueteam-list-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.oueteam-list-jobtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer{
+  background: #2E2F42;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo-web {
+  color: #4d5ae5;
+}
+.footer-logo-studio {
+  color: #F4F4FD;
+}
+.footer-text{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
 
+letter-spacing: 0.02em;
 
+/* CLOUD */
 
-.main-navi{ 
-    font-family: Roboto;
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    } */
-
-    header
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0;
-        background-color: #fff;
-        /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-    }
-    .logo 
-    {   font-family: Raleway ,sans-serif;
-        text-decoration: none;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-    }
-      
-      .logo-web {
-        color: #5D3FD3;
-      }
-      
-      .logo-studio {
-        color: #000080;
-      }
-      
-      .main-navi {
-        display: flex;
-        list-style: none;
-         margin: 0;
-         padding: 0;
-      } 
-      
-      .main-navi li {
-        margin-left: 60px;
-      }
-      
-      .main-navi li:first-child {
-        margin-left: 0;
-      }
-      
-      .main-navi li a {
-        text-decoration: none;
-        color: #333;
-        font-size: 16px;
-      }
-      
-      .main-navi li a:hover {
-        color: #ff8c00;
-      }
-      
-      .main-navi-mail,
-      .main-navi-tel {
-        text-decoration: none;
-        color: #333;
-        font-size: 16px;
-      }
-      
-      .main-navi-mail:hover,
-      .main-navi-tel:hover {
-        color: #db20ad;
-      }
+color: #F4F4FD;
+}
