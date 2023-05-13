@@ -47,12 +47,16 @@ color:var(--slate);background-color: var(--white);}
   letter-spacing: 0.02em;
   color:var(--navybluemodal);
 }
-.header-adress{
+.header-address{
   font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:var(--slate);
 }
 
 
-.header-mail {
+/* .header-mail {
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -67,7 +71,7 @@ color:var(--slate);background-color: var(--white);}
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:var(--slate);
-}
+} */
 
 /** -------------HERO---------------- */
 .hero {
@@ -83,7 +87,7 @@ color:var(--slate);background-color: var(--white);}
   color:var(--white);
 }
 .hero-btn {
-  font-family: "Roboto Flex",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
