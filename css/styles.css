@@ -15,13 +15,12 @@
 .hero-btn:focus{background-color:var(--ocean);}
 .header-link:hover{color:var(--ocean);} 
 .header-link:focus{color:var(--ocean);} 
-.header-mail:hover {color:var(--ocean);} 
-.header-mail:focus {color:var(--ocean);} 
-.header-phone:focus{color:var(--ocean);} 
-.header-phone:hover{color:var(--ocean);} 
+.header-address:hover {color:var(--ocean);} 
+.header-address:focus {color:var(--ocean);} 
+
 
 body { 
-font-family:"Roboto Flex",sans-serif; 
+font-family:"Roboto",sans-serif; 
 color:var(--slate);background-color: var(--white);}
 
   /** -------------HEADER---------------- */
@@ -84,7 +83,7 @@ color:var(--slate);background-color: var(--white);}
   color:var(--white);
 }
 .hero-btn {
-  font-family: 'Roboto Flex',sans-serif;
+  font-family: "Roboto Flex",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -159,15 +158,19 @@ color:var(--slate);background-color: var(--white);}
 }
 .oueteam-list{
   list-style: none;
-  background-color:var(--white);
 }
+
+.oueteam-list-item{
+  background-color:var(--white); 
+}
+
+
 .oueteam-list-name {
   font-family: "Roboto Flex",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  background-color:var(--white);
   letter-spacing: 0.02em;
   color:var(--navybluemodal);
 }
