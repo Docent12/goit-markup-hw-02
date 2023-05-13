@@ -15,9 +15,13 @@
 .hero-btn:focus{background-color:var(--ocean);}
 .header-link:hover{color:var(--ocean);} 
 .header-link:focus{color:var(--ocean);} 
+.header-mail:hover {color:var(--ocean);} 
+.header-mail:focus {color:var(--ocean);} 
+.header-phone:focus{color:var(--ocean);} 
+.header-phone:hover{color:var(--ocean);} 
 
 body { 
-font-family: "Roboto Flex", sans-serif; 
+font-family:"Roboto Flex",sans-serif; 
 color:var(--slate);background-color: var(--white);}
 
   /** -------------HEADER---------------- */
@@ -80,7 +84,7 @@ color:var(--slate);background-color: var(--white);}
   color:var(--white);
 }
 .hero-btn {
-  font-family: 'Roboto Flex';
+  font-family: 'Roboto Flex',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -111,7 +115,7 @@ color:var(--slate);background-color: var(--white);}
 }
 
 .features-list-title {
-  font-family: "Roboto Flex";
+  font-family: "Roboto Flex",sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -129,12 +133,12 @@ color:var(--slate);background-color: var(--white);}
 
 /** -------------OURJOB---------------- */
 .ourjob-title {
-  font-family: "Roboto Flex";
+  font-family: "Roboto Flex",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:var(--navybluemodal);
@@ -144,17 +148,21 @@ color:var(--slate);background-color: var(--white);}
 .ourteam{background-color: var(--cloud);}
 
 .ourteam-title {
-  font-family: "Roboto Flex";
+  font-family: "Roboto Flex",sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:var(--navybluemodal);
 }
+.oueteam-list{
+  list-style: none;
+  background-color:var(--white);
+}
 .oueteam-list-name {
-  font-family: "Roboto Flex";
+  font-family: "Roboto Flex",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -164,7 +172,7 @@ color:var(--slate);background-color: var(--white);}
   color:var(--navybluemodal);
 }
 .oueteam-list-jobtitle {
-  font-family: "Roboto Flex";
+  font-family: "Roboto Flex",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -193,7 +201,7 @@ color:var(--slate);background-color: var(--white);}
   color:var(--cloud);
 }
 .footer-text{
-  font-family: 'Roboto Flex';
+  font-family: "Roboto Flex",sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -224,7 +232,7 @@ color:var(--cloud);
   border-radius: 4px; 
 }
 .filter-btn-text {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -239,7 +247,7 @@ color:var(--cloud);
 .works-list-item {
 }
 .works-list-title {
-  font-family: 'Roboto Flex';
+  font-family: "Roboto Flex",sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -247,7 +255,7 @@ color:var(--cloud);
   color: var(--navyblue);
 }
 .works-list-text {
-  font-family: 'Roboto Flex';
+  font-family: 'Roboto Flex',sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
