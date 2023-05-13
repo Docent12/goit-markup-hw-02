@@ -231,14 +231,23 @@ color:var(--cloud);
 }
 
 .filter-btn {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
   width: 126px;
   height: 48px;
- color:var(--iris);
+  cursor: pointer;
+  color:var(--iris);
   background:var(--cloud);
   border: 1px solid var(--cornflower);
   border-radius: 4px; 
 }
-.filter-btn-text {
+/* .filter-btn-text {
   font-family: "Roboto Flex", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -248,7 +257,7 @@ color:var(--cloud);
   text-align: center;
   letter-spacing: 0.04em;
   /* color:var(--iris); */
-}
+} */
 .works-list {
 }
 .works-list-item {
