@@ -6,6 +6,18 @@
  --grey:#808080;--white:#FFFFFF;--dairy:#FCFCFC;
 }
 
+.show-for-index {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .link{text-decoration: none;}
 .list{list-style: none;}
 .filter-btn:is(:hover,:focus){background-color:var(--ocean);color:var(--white);}
@@ -87,17 +99,7 @@ color:var(--slate);background-color: var(--white);}
 
 /** -------------FEATURES---------------- */
 
-.show-for-index {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
+
 
 .features-list-title {
   font-family: "Roboto Flex",sans-serif;
