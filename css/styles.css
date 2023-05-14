@@ -52,7 +52,7 @@ color:var(--slate);background-color: var(--white);}
 }
 
 .header-link {
-  font-family:"Roboto Flex",sans-serif;
+  font-family:"Roboto",sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -74,7 +74,7 @@ color:var(--slate);background-color: var(--white);}
   background-color:var(--navybluemodal);
 }
 .hero-title {
-  font-family: "Roboto Flex",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -102,7 +102,7 @@ color:var(--slate);background-color: var(--white);}
 
 
 .features-list-title {
-  font-family: "Roboto Flex",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -110,7 +110,7 @@ color:var(--slate);background-color: var(--white);}
   color:var(--navybluemodal);
 }
 .features-list-text {
-  font-family: "Roboto Flex";
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -120,7 +120,7 @@ color:var(--slate);background-color: var(--white);}
 
 /** -------------OURJOB---------------- */
 .ourjob-title {
-  font-family: "Roboto Flex",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -135,7 +135,7 @@ color:var(--slate);background-color: var(--white);}
 .ourteam{background-color: var(--cloud);}
 
 .ourteam-title {
-  font-family: "Roboto Flex",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -154,7 +154,7 @@ color:var(--slate);background-color: var(--white);}
 
 
 .oueteam-list-name {
-  font-family: "Roboto Flex",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -163,7 +163,7 @@ color:var(--slate);background-color: var(--white);}
   color:var(--navybluemodal);
 }
 .oueteam-list-jobtitle {
-  font-family: "Roboto Flex",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -192,7 +192,7 @@ color:var(--slate);background-color: var(--white);}
   color:var(--cloud);
 }
 .footer-text{
-  font-family: "Roboto Flex",sans-serif;
+  font-family: "Roboto",sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -223,7 +223,7 @@ color:var(--cloud);
 
 /* *------------Prtfolio Works IMG-h3-Text------------ */
 .works-list-title {
-  font-family: "Roboto Flex",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -231,7 +231,7 @@ color:var(--cloud);
   color: var(--navybluemodal);
 }
 .works-list-text {
-  font-family: 'Roboto Flex',sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
